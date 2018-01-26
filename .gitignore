@@ -1,6 +1,7 @@
 *.pyc
 *.sh
 .env
+spider.csv
 
 # Byte-compiled / optimized / DLL files<Plug>yankstack_after_paste
 __pycache__/
