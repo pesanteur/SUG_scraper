@@ -13,7 +13,7 @@ class SugScraperItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     # Date = Field()
-    #Location = Field()
+    # Location = Field()
     Time = Field()
     Status = Field()
     DES_Group = Field()
