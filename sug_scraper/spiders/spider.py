@@ -1,11 +1,15 @@
+import requests
+from scrapy.spiders import CrawlSpider
+from scrapy.selector import Selector
 from scrapy import Spider
 from scrapy import log
 from sug_scraper.items import SugScraperItem
+from scrapy.http import Request
 
 class SUGSpider(Spider):
     name = "SUG"
     allowed_domains = ["signupgenius.com"]
-    start_urls = ('http://www.signupgenius.com/go/10c084baaa82da2fe3-term227',)
+    start_urls = ('http://www.signupgenius.com/go/10c084baaa82da2fe3-term247',)
     base_table = '//table[@class="SUGtableouter"]/tr'
 
     def parse(self, response):

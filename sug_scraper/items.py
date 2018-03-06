@@ -5,9 +5,7 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
-from scrapy import Item
-from scrapy.item import Field
-
+from scrapy import Item, Field
 
 class SugScraperItem(Item):
     # define the fields for your item here like:
