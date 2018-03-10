@@ -32,8 +32,8 @@ DOWNLOAD_DELAY = 1
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
 
-FEED_URI=u'/python/SUG_scraper/sug_scraper.csv'
-FEED_FORMAT='CSV'
+#FEED_URI=u'/python/SUG_scraper/sug_scraper.csv'
+#FEED_FORMAT='CSV'
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
